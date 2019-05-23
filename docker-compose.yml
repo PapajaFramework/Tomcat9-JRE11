@@ -1,0 +1,9 @@
+tomcat:
+  image: tomcat:9-jre11
+  ports:
+  - 7070:8080
+  container_name: tomcat-9-jre11
+  volumes:
+  - ./config/:/usr/local/tomcat/conf/
+  - ./logs/:/usr/local/tomcat/logs/
+  - ./webapps/:/usr/local/tomcat/webapps/

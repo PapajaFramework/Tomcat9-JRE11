@@ -1,0 +1,12 @@
+.idea
+target/
+bin/
+out/
+output/
+*.iml
+.project
+.classpath
+logs/
+!logs/.gitkeep
+webapps/*
+!webapps/manager/
